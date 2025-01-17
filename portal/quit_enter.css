@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(255, 177, 234);
+    height: 1180px;
+  }
+  
+  .main {
+    position: relative;
+    width: 1400px;
+    background-color: rgb(255, 227, 227);
+    display: block;
+    top: 250px;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+  }
+  
+  .main h1 {
+    margin-left: 430px;
+    /*margin-bottom: 20px;*/
+    padding-top: 10px;
+    font-size: 40px
+  }
+  
+  .plf-img {
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin: 70px 700px 0 0;
+  }
+  
+  .plfc-img {
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin: -23px 720px 0 0;
+  }
+  
+  .main-img {
+    height: 250px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 0 50px;
+    float: left;
+  }
+  
+  .main h2 {
+    margin: 30px 0 0 430px;
+    font-size: 30px;
+  }
+  
+  .main p {
+    margin-top: 10px;
+    line-height: 10px;
+    margin-left: 430px;
+    font-size: 20px;
+  }
+  
+  .main h3 {
+    margin: 0 0 0 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 255);
+  }
+  
+  #back_event {
+    width: 500px;
+    margin-left: 850px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 177, 234);
+  }
+  
+  #back_event:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #quit {
+    position: relative;
+    float: left;
+    top: 280px;
+    width: 600px;
+    margin: 0 0 0 470px;
+    font-size: 40px;
+    background-color: rgb(255, 227, 227);
+  }
+  
+  #quit:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .contact {
+    position: relative;
+    margin-top: 130px;
+  }

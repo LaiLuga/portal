@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+        <title>home</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <div class="header">
+            <button type="button" id="logout">ログアウト</button>  
+            <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+            <button type="button" id="sc_home" class="home">
+                <img alt="ホーム" class="menu_img" src="./assets/images/a21c9203-0538-4e16-a075-4f3c1730baa2.png">
+                <a class="menu_a">　ホーム</a>
+            </button>
+            <button type="button" id="sc_list" class="list">
+                <img alt="イベント一覧" class="menu_img" src="./assets/images/0657fc75-7139-47fa-a17f-fe0378bfd9ac.png">
+                <a class="menu_a">イベント情報</a>
+            </button>
+            <button type="button" id="sc_com" class="comment">
+                <img alt="感想" class="menu_img" src="./assets/images/9f491608-4d00-49c6-9b3e-c724f0f3cc3c.png">
+                <a class="menu_a">　　感想</a>
+            </button>
+            <button type="button" id="sc_plf" class="plofile">
+                <img alt="プロフィール" class="menu_img" src="./assets/images/62b88de3-2677-44d1-99c6-ab839727dd05.png">
+                <a class="menu_a">プロフィール</a>
+            </button>
+        </div>
+
+        <div id="scHome"></div>
+        <div id="sc_evlist"></div>
+        <div id="sc_coment"></div>
+        <div id="sc_plof"></div>
+
+        <div class="about">
+            <h1>社会的処方とは</h1>
+            <p>人を活動・人物などにつなげ、健康増進や生活の質・ウェルビーイングの向上を目指す取り組みのこと</p>
+            <h1>社会的処方の流れ</h1>
+            <p>病気の患者に地域のサークル活動やコミュニティ活動など、薬ではなく社会参加の機会を処方し、</p>
+            <p>生活環境を変え、病気の原因を取り除く</p>
+            <img alt="社会的処方" class="about_img" src="./assets/images/f679d92a486cfb957e1dedf3467a2f4ae8ebe614.png">
+            <p id="sc_list" class="about_p">薬の代わりに人との繋がりを処方する！</p>
+        </div>
+
+        <div class="event-list">
+            <h1>イベント情報</h1>
+            <div class="event-list-content">
+                <h1>PC講習会</h1>
+                <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+                <img alt="PC講習会" class="event-list-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+                <p>主催：木古内町役場</p>
+                <p>日時：10/7(月) 10:00~12:00</p>
+                <p>場所：木古内町OO会館</p>
+                <p>概要</p>
+                <p>ーーーーーーーーーー</p>
+                <p class="tag">#繋がりたい #デジタル #お話会</p>
+                <button type="button" id="to_pc_class" class="to_event">このイベントの詳細を見る</button>
+            </div>
+            <div class="event-list-content">
+                <h1>共食会</h1>
+                <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+                <img alt="共食会" class="event-list-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">
+                <p>主催：木古内町役場</p>
+                <p>日時：10/15(火) 12:00~14:00</p>
+                <p>場所：木古内町OO会館</p>
+                <p>概要</p>
+                <p>ーーーーーーーーーー</p>
+                <p class="tag">#ご飯 #お話会 #健康</p>
+                <button type="button" id="to_lunch_event" class="to_event">このイベントの詳細を見る</button>
+            </div>
+            <div class="event-list-content">
+                <h1>サイクリング会</h1>
+                <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+                <img alt="サイクリング会" class="event-list-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">
+                <p>主催：木古内町役場</p>
+                <p>日時：10/20(日) 15:00~17:00</p>
+                <p>場所：木古内町OO山</p>
+                <p>概要</p>
+                <p>ーーーーーーーーーー</p>
+                <p class="tag">#運動 #お話会 #健康</p>
+                <button type="button" id="to_cycling" class="to_event">このイベントの詳細を見る</button>
+            </div>
+            <button type="button" id="others" class="other_event">その他のイベント</button>
+        </div>
+
+        <div class="com">
+            <h1>イベントの感想</h1>
+            <div class="com-content">
+                <h1>PC講習会</h1>
+                <img alt="PC講習会" class="com-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+                <img alt="PC講習会" class="com-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+                <img alt="PC講習会" class="com-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+                <button type="button" id="to_pc_class_comment" class="to_comment">このイベントの感想を見る</button>
+            </div>
+            <div class="com-content">
+                <h1>共食会</h1>
+                <img alt="共食会" class="com-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">
+                <img alt="共食会" class="com-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">
+                <img alt="共食会" class="com-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">              
+                <button type="button" id="to_lunch_event_comment" class="to_comment">このイベントの感想を見る</button>
+            </div>
+            <div class="com-content">
+                <h1>サイクリング会</h1>
+                <img alt="サイクリング会" class="com-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">
+                <img alt="サイクリング会" class="com-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">
+                <img alt="サイクリング会" class="com-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">                
+                <button type="button" id="to_cycling_comment" class="to_comment">このイベントの感想を見る</button>
+            </div>
+            <button type="button" id="otherscom" class="other_comment">その他のイベントの感想</button>
+        </div>
+
+        <div class="plof">
+            <button type="button" id="see_plf" class="to_plf">プロフィールを確認する⇒</button>
+            <button type="button" id="edit_plf" class="to_plf">プロフィールを編集する⇒</button>
+        </div>
+
+        <div class="contact">
+            <h1>お問い合わせはこちら⇒</h1>
+            <p>運営/公立はこだて未来大学</p>
+            <p>プロジェクトNo.9</p>
+            <p>〒000-0000　公立はこだて未来大学</p>
+            <p>TEL：000-0000-0000</p>
+        </div>
+        <script>
+            const logout = document.getElementById("logout");
+            const sc_home = document.getElementById("sc_home");
+            const sc_list = document.getElementById("sc_list");
+            const sc_com = document.getElementById("sc_com");
+            const sc_plf = document.getElementById("sc_plf");
+            const to_pc_class = document.getElementById("to_pc_class");
+            const to_lunch_event = document.getElementById("to_lunch_event");
+            const to_cycling = document.getElementById("to_cycling");
+            const others = document.getElementById("others");
+            const to_pc_class_comment = document.getElementById("to_pc_class_comment");
+            const to_lunch_event_comment = document.getElementById("to_lunch_event_comment");
+            const to_cycling_comment = document.getElementById("to_cycling_comment");
+            const otherscom = document.getElementById("otherscom");
+            const see_plf = document.getElementById("see_plf");
+            const edit_plf = document.getElementById("edit_plf");
+
+            logout.addEventListener("click", () => {
+                window.location.href = "login.html";
+            });
+
+            sc_home.addEventListener("click", () => {
+                window.scroll({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            });
+
+            sc_list.addEventListener("click", () => {
+                window.scroll({
+                    top: 860,
+                    behavior: "smooth",
+                });
+            });
+
+            sc_com.addEventListener("click", () => {
+                window.scroll({
+                    top: 2780,
+                    behavior: "smooth",
+                });
+            });
+
+            sc_plf.addEventListener("click", () => {
+                window.scroll({
+                    top: 4750,
+                    behavior: "smooth",
+                });
+            });
+
+            to_pc_class.addEventListener("click", () => {
+                window.location.href = "pc_class.html";
+            });
+
+            to_lunch_event.addEventListener("click", () => {
+                window.location.href = "lunch_event.html";
+            });
+
+            to_cycling.addEventListener("click", () => {
+                window.location.href = "cycling.html";
+            });
+
+            others.addEventListener("click", () => {
+                window.location.href = "event_list.html";
+            });
+            
+            to_pc_class_comment.addEventListener("click", () => {
+                window.location.href = "pc_class_comment.html";
+            });
+
+            to_lunch_event_comment.addEventListener("click", () => {
+                window.location.href = "lunch_event_comment.html";
+            });
+
+            to_cycling_comment.addEventListener("click", () => {
+                window.location.href = "cycling_comment.html";
+            });
+
+            otherscom.addEventListener("click", () => {
+                window.location.href = "other_comment.html";
+            });
+
+            see_plf.addEventListener("click", () => {
+                window.location.href = "profile.html";
+            });
+
+            edit_plf.addEventListener("click", () => {
+                window.location.href = "edit_profile.html";
+            });
+        </script>
+    </body>
+</html>

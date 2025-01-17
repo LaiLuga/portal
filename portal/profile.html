@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <title>profile</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="header">
+        <button type="button" id="logout">ログアウト</button>
+        <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+        <button type="button" id="sc_home" class="home">
+            <img alt="ホーム" class="menu_img" src="./assets/images/a21c9203-0538-4e16-a075-4f3c1730baa2.png">
+            <a class="menu_a">　ホーム</a>
+        </button>
+        <button type="button" id="sc_list" class="list">
+            <img alt="イベント一覧" class="menu_img" src="./assets/images/0657fc75-7139-47fa-a17f-fe0378bfd9ac.png">
+            <a class="menu_a">イベント情報</a>
+        </button>
+        <button type="button" id="sc_com" class="comment">
+            <img alt="感想" class="menu_img" src="./assets/images/9f491608-4d00-49c6-9b3e-c724f0f3cc3c.png">
+            <a class="menu_a">　　感想</a>
+        </button>
+        <button type="button" id="sc_plf" class="plofile">
+            <img alt="プロフィール" class="menu_img" src="./assets/images/62b88de3-2677-44d1-99c6-ab839727dd05.png">
+            <a class="menu_a">プロフィール</a>
+        </button>
+    </div>
+
+    <div class="main">
+        <h2>名前(ニックネーム)</h2>
+        <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+        <p>こたろう</p>
+        <h2>性別</h2>
+        <p>男</p>
+        <h2>年代</h2>
+        <p>60代</p>
+        <h2>町内会</h2>
+        <p>未来</p>
+        <h2>コメント</h2>
+        <p>いろんな人と楽しくお話がしたいです。よろしくお願いします。</p>
+        <button type="button" id="edit_plf">プロフィールを編集する⇒</button>
+        <button type="button" id="entered_event">応募済みのイベントを見る</button>
+    </div>
+
+    <div class="contact">
+        <h1>お問い合わせはこちら⇒</h1>
+        <p>運営/公立はこだて未来大学</p>
+        <p>プロジェクトNo.9</p>
+        <p>〒000-0000　公立はこだて未来大学</p>
+        <p>TEL：000-0000-0000</p>
+    </div>
+
+    <script>
+        const logout = document.getElementById("logout");
+        const sc_home = document.getElementById("sc_home");
+        const sc_list = document.getElementById("sc_list");
+        const sc_com = document.getElementById("sc_com");
+        const sc_plf = document.getElementById("sc_plf");
+        const edit_plf = document.getElementById("edit_plf");
+        const entered_event = document.getElementById("entered_event");
+
+        logout.addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+
+        sc_home.addEventListener("click", () => {
+            window.location.href = "home.html#scHome";
+        });
+
+        sc_list.addEventListener("click", () => {
+            window.location.href = "home.html#sc_evlist";
+        });
+
+        sc_com.addEventListener("click", () => {
+            window.location.href = "home.html#sc_coment";
+        });
+
+        sc_plf.addEventListener("click", () => {
+            window.location.href = "home.html#sc_plof";
+        });
+
+        edit_plf.addEventListener("click", () => {
+            window.location.href = "edit_profile.html";
+        });
+
+        entered_event.addEventListener("click", () => {
+            window.location.href = "entered_event.html";
+        });
+    </script>
+</body>
+
+</html>

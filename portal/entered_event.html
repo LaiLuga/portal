@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <title>entered_event</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="entered_event.css">
+</head>
+
+<body>
+    <div class="header">
+        <button type="button" id="logout">ログアウト</button>
+        <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+        <button type="button" id="sc_home" class="home">
+            <img alt="ホーム" class="menu_img" src="./assets/images/a21c9203-0538-4e16-a075-4f3c1730baa2.png">
+            <a class="menu_a">　ホーム</a>
+        </button>
+        <button type="button" id="sc_list" class="list">
+            <img alt="イベント一覧" class="menu_img" src="./assets/images/0657fc75-7139-47fa-a17f-fe0378bfd9ac.png">
+            <a class="menu_a">イベント情報</a>
+        </button>
+        <button type="button" id="sc_com" class="comment">
+            <img alt="感想" class="menu_img" src="./assets/images/9f491608-4d00-49c6-9b3e-c724f0f3cc3c.png">
+            <a class="menu_a">　　感想</a>
+        </button>
+        <button type="button" id="sc_plf" class="plofile">
+            <img alt="プロフィール" class="menu_img" src="./assets/images/62b88de3-2677-44d1-99c6-ab839727dd05.png">
+            <a class="menu_a">プロフィール</a>
+        </button>
+    </div>
+
+    <div class="event-list">
+        <h1>応募済みのイベント</h1>
+        <div class="event-list-content">
+            <h1>PC講習会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="PC講習会" class="event-list-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：10/7(月) 10:00~12:00</p>
+            <p>場所：木古内町OO会館</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#繋がりたい #デジタル #お話会</p>
+            <button type="button" id="to_pc_class" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+        <div class="event-list-content">
+            <h1>共食会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="共食会" class="event-list-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：10/15(火) 12:00~14:00</p>
+            <p>場所：木古内町OO会館</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#ご飯 #お話会 #健康</p>
+            <button type="button" id="to_lunch_event" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+        <div class="event-list-content">
+            <h1>サイクリング会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="サイクリング会" class="event-list-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：10/20(日) 15:00~17:00</p>
+            <p>場所：木古内町OO山</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#運動 #お話会 #健康</p>
+            <button type="button" id="to_cycling" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+        <div class="event-list-content">
+            <h1>PC講習会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="PC講習会" class="event-list-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：11/4(月) 10:00~12:00</p>
+            <p>場所：木古内町OO会館</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#繋がりたい #デジタル #お話会</p>
+            <button type="button" id="to_pc_class2" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+        <div class="event-list-content">
+            <h1>共食会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="共食会" class="event-list-img" src="./assets/images/2d3ddf6d-3426-4cc1-9d1a-e2d0b7c6a33e.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：11/12(火) 12:00~14:00</p>
+            <p>場所：木古内町OO会館</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#ご飯 #お話会 #健康</p>
+            <button type="button" id="to_lunch_event2" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+        <div class="event-list-content">
+            <h1>サイクリング会</h1>
+            <img alt="プロフィール写真" class="main-img" src="./assets/images/profile.png">
+            <img alt="サイクリング会" class="event-list-img" src="./assets/images/15f36808-544b-4735-97c6-0fe6fec5ef55.png">
+            <p>主催：木古内町役場</p>
+            <p>日時：11/24(日) 15:00~17:00</p>
+            <p>場所：木古内町OO山</p>
+            <p>概要</p>
+            <p>ーーーーーーーーーー</p>
+            <p class="tag">#運動 #お話会 #健康</p>
+            <button type="button" id="to_cycling2" class="to_event">このイベントの詳細を見る</button>
+            <button type="button" id="quit_enter" class="quit_event">このイベントの応募をやめる</button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>お問い合わせはこちら⇒</h1>
+        <p>運営/公立はこだて未来大学</p>
+        <p>プロジェクトNo.9</p>
+        <p>〒000-0000　公立はこだて未来大学</p>
+        <p>TEL：000-0000-0000</p>
+    </div>
+
+    <script>
+        const logout = document.getElementById("logout");
+        const sc_home = document.getElementById("sc_home");
+        const sc_list = document.getElementById("sc_list");
+        const sc_com = document.getElementById("sc_com");
+        const sc_plf = document.getElementById("sc_plf");
+        const to_pc_class = document.getElementById("to_pc_class");
+        const to_lunch_event = document.getElementById("to_lunch_event");
+        const to_cycling = document.getElementById("to_cycling");
+        const to_pc_class2 = document.getElementById("to_pc_class2");
+        const to_lunch_event2 = document.getElementById("to_lunch_event2");
+        const to_cycling2 = document.getElementById("to_cycling2");
+        const quit_enter = document.getElementById("quit_enter");
+
+        logout.addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+
+        sc_home.addEventListener("click", () => {
+            window.location.href = "home.html#scHome";
+        });
+
+        sc_list.addEventListener("click", () => {
+            window.location.href = "home.html#sc_evlist";
+        });
+
+        sc_com.addEventListener("click", () => {
+            window.location.href = "home.html#sc_coment";
+        });
+
+        sc_plf.addEventListener("click", () => {
+            window.location.href = "home.html#sc_plof";
+        });
+
+        to_pc_class.addEventListener("click", () => {
+            window.location.href = "pc_class.html";
+        });
+
+        to_lunch_event.addEventListener("click", () => {
+            window.location.href = "lunch_event.html";
+        });
+
+        to_cycling.addEventListener("click", () => {
+            window.location.href = "cycling.html";
+        });
+
+        to_pc_class2.addEventListener("click", () => {
+            window.location.href = "pc_class2.html";
+        });
+
+        to_lunch_event2.addEventListener("click", () => {
+            window.location.href = "lunch_event2.html";
+        });
+
+        to_cycling2.addEventListener("click", () => {
+            window.location.href = "cycling2.html";
+        });
+
+        quit_enter.addEventListener("click", () => {
+            window.location.href = "quit_enter.html";
+        });
+    </script>
+</body>
+
+</html>

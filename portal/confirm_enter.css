@@ -1,0 +1,297 @@
+body {
+    scroll-behavior: smooth;
+    background-color: rgb(255, 221, 100);
+}
+
+.header {
+    position: fixed;
+    width: 1440px;
+    height: 150px;
+    top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    background: url(./assets/images/de3ed309-1c52-4718-abd9-b16a074e29dd.png) no-repeat center;
+    background-size: 1440px 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: overlay;
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 140px;
+    left: 2.5%;
+    position: relative;
+    z-index: 5;
+}
+
+.home {
+    position: relative;
+    background-color: rgb(167, 207, 250);
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    /*  transition: all 0.5s;*/
+}
+.home:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.list {
+    position: relative;
+    background-color: rgb(255, 221, 100);
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    /*  transition: all 0.5s;*/
+}
+.list:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.comment {
+    position: relative;
+    background-color: rgb(194, 241, 100);
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    /*  transition: all 0.5s;*/
+}
+.comment:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.plofile {
+    position: relative;
+    background-color: rgb(255, 177, 234);
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    /*  transition: all 0.5s;*/
+}
+.plofile:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu_a {
+    position: relative;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.menu_img {
+    position: relative;
+    height: 75px;
+    width: 80px;
+    top: 10px;
+    margin-left: 5px;
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    background-color: rgb(255, 241, 191);
+    display: block;
+    border-radius: 30px;
+    top: 250px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.main-h1 {
+    margin: 30px 0 0 630px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.event-list-content {
+    position: relative;
+    width: 1400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.event-list-content h1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.main-img {
+    position: relative;
+    float: right;
+    height: 50px;
+    width: 50px;
+    right: 850px;
+}
+
+.event-list-img {
+    height: 150px;
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+}
+
+.event-list-content p {
+    float: left;
+    width: 500px;
+    margin-left: 50px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.tag {
+    padding-top: 20px;
+    color: rgb(0, 0, 255);
+}
+
+.plus-content {
+    position: relative;
+    width: 1400px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    z-index: 1;
+}
+
+.plus-content h1 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.plus-content p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.plus-content h2 {
+    float: left;
+    margin: 10px 0 0 450px;
+    line-height: 20px;
+    font-size: 25px;    
+}
+
+#conpanion_nickname {
+    margin: 0 320px 10px 30px;
+    font-size: 25px;
+}
+
+.main label {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#man {
+    margin: 15px 5px 0 230px;
+}
+
+.main label[for="other"] {
+    font-size: 25px;
+    margin-right: 360px;
+}
+
+.radio_btn {
+    margin-left: 30px;
+}
+
+#pulldown {
+    position: relative;
+    left: -150px;
+    font-size: 25px;
+}
+
+.to_event {
+    position: relative;
+    float: left;
+    width: 350px;
+    margin-left: 950px;
+    top: -40px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 221, 100);
+}
+
+.to_event:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#conpanion_plus {
+    position: relative;
+    font-size: 30px;
+    top:80px;
+    left: -310px;
+    background-color: rgb(255, 221, 100);
+}
+
+#conpanion_plus:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.contact {
+    position: relative;
+    width: 1440px;
+    background-color: rgb(248, 207, 178);
+    display: block;
+    border-radius: 30px;
+    top: 50px;
+    margin: 30px 30px 0 0;
+    padding: 10px 0;
+    z-index: -1;
+}
+
+.contact h1 {
+    display: block;
+    width: 1400px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact p {
+    margin-left: 500px;
+    font-size: 20px;
+    line-height: 5px;
+}

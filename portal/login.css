@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(167, 207, 250);
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+    top: 250px;
+    margin-left: 50px;
+    padding-bottom: 1px;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 25px;
+}
+
+#ID {
+    font-size: 25px;
+}
+
+#pass {
+    font-size: 25px;
+}
+
+#login {
+    background-color: rgb(215, 234, 255);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#login:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.new_h1 {
+    margin: 50px 0 0 0;
+}
+
+.new_p {
+    margin: 0 0 20px 0;
+}
+
+#new_account {
+    background-color: rgb(215, 234, 255);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#new_account:hover {
+    background-color: rgb(255, 255, 255);
+}

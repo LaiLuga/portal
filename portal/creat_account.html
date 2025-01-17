@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>creat_account</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="creat_account.css" />
+</head>
+
+<body>
+    <div class="header">
+        <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+    </div>
+
+    <div class="main">
+        <h1>アカウント新規登録</h1>
+        <p>メールアドレス：<input type="email" id="mail"></p>
+        <p>　　パスワード：<input type="password" id="pass"></p>
+        <button type="button" id="enter">登録</button>
+    </div>
+
+    <script>
+        let mail = document.getElementById('mail');
+        mail.value = "";
+        let pass = document.getElementById("pass");
+        pass.value = "";
+        const enter = document.getElementById("enter");
+
+        enter.addEventListener("click", () => {
+            if (!mail.value || !pass.value) {
+                alert("メールアドレスとパスワードを入力してください");
+            } else {
+                window.location.href = "login.html";
+            }
+        });
+    </script>
+</body>
+
+</html>

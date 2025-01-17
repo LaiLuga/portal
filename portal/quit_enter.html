@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quit_enter</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="quit_enter.css" />
+</head>
+
+<body>
+    <div class="header">
+        <button type="button" id="logout">ログアウト</button>
+        <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+        <button type="button" id="sc_home" class="home">
+            <img alt="ホーム" class="menu_img" src="./assets/images/a21c9203-0538-4e16-a075-4f3c1730baa2.png">
+            <a class="menu_a">　ホーム</a>
+        </button>
+        <button type="button" id="sc_list" class="list">
+            <img alt="イベント一覧" class="menu_img" src="./assets/images/0657fc75-7139-47fa-a17f-fe0378bfd9ac.png">
+            <a class="menu_a">イベント情報</a>
+        </button>
+        <button type="button" id="sc_com" class="comment">
+            <img alt="感想" class="menu_img" src="./assets/images/9f491608-4d00-49c6-9b3e-c724f0f3cc3c.png">
+            <a class="menu_a">　　感想</a>
+        </button>
+        <button type="button" id="sc_plf" class="plofile">
+            <img alt="プロフィール" class="menu_img" src="./assets/images/62b88de3-2677-44d1-99c6-ab839727dd05.png">
+            <a class="menu_a">プロフィール</a>
+        </button>
+    </div>
+
+    <div class="main">
+        <img alt="プロフィール写真" class="plf-img" src="./assets/images/profile.png">
+        <h1>PC講習会</h1>
+        <img alt="PC講習会" class="main-img" src="./assets/images/17614405-a6f0-4796-b561-921eeada86b1.png">
+        <p>主催：木古内町役場</p>
+        <h2>日時</h2>
+        <p>10/7(月) 10:00~12:00</p>
+        <h2>場所</h2>
+        <p>木古内町OO会館</p>
+        <h2>内容</h2>
+        <p>初心者大歓迎!</p>
+        <p>PCについて私たちと一緒に学びませんか？</p>
+        <h3>#繋がりたい #デジタル #お話会</h3>
+        <button type="button" id="back_event">応募済みのイベント一覧に戻る</button>
+    </div>
+
+    <button type="button" id="quit">このイベントの応募をやめる</button>
+
+    <div class="contact">
+        <h1>お問い合わせはこちら⇒</h1>
+        <p>運営/公立はこだて未来大学</p>
+        <p>プロジェクトNo.9</p>
+        <p>〒000-0000　公立はこだて未来大学</p>
+        <p>TEL：000-0000-0000</p>
+    </div>
+
+    <script>
+        const logout = document.getElementById("logout");
+        const sc_home = document.getElementById("sc_home");
+        const sc_list = document.getElementById("sc_list");
+        const sc_com = document.getElementById("sc_com");
+        const sc_plf = document.getElementById("sc_plf");
+        const back_event = document.getElementById("back_event");
+        const quit = document.getElementById("quit");
+
+        logout.addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+
+        sc_home.addEventListener("click", () => {
+            window.location.href = "home.html#scHome";
+        });
+
+        sc_list.addEventListener("click", () => {
+            window.location.href = "home.html#sc_evlist";
+        });
+
+        sc_com.addEventListener("click", () => {
+            window.location.href = "home.html#sc_coment";
+        });
+
+        sc_plf.addEventListener("click", () => {
+            window.location.href = "home.html#sc_plof";
+        });
+
+        back_event.addEventListener("click", () => {
+            window.location.href = "entered_event.html";
+        });
+
+        quit.addEventListener("click", () => {
+            var result = window.confirm("本当に取り消しますか？");
+
+            if (result) {
+                window.location.href = "confirm_quit.html";
+            } else {
+                window.location.href = "quit_enter.html";
+            }
+        });
+    </script>
+</body>
+
+</html>

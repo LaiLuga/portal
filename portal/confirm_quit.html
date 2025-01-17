@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>confirm_quit</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="confirm_quit.css" />
+</head>
+
+<body>
+    <div class="header">
+        <button type="button" id="logout">ログアウト</button>
+        <img alt="ロゴ" class="logo" src="./assets/images/kikopo.png">
+        <button type="button" id="sc_home" class="home">
+            <img alt="ホーム" class="menu_img" src="./assets/images/a21c9203-0538-4e16-a075-4f3c1730baa2.png">
+            <a class="menu_a">　ホーム</a>
+        </button>
+        <button type="button" id="sc_list" class="list">
+            <img alt="イベント一覧" class="menu_img" src="./assets/images/0657fc75-7139-47fa-a17f-fe0378bfd9ac.png">
+            <a class="menu_a">イベント情報</a>
+        </button>
+        <button type="button" id="sc_com" class="comment">
+            <img alt="感想" class="menu_img" src="./assets/images/9f491608-4d00-49c6-9b3e-c724f0f3cc3c.png">
+            <a class="menu_a">　　感想</a>
+        </button>
+        <button type="button" id="sc_plf" class="plofile">
+            <img alt="プロフィール" class="menu_img" src="./assets/images/62b88de3-2677-44d1-99c6-ab839727dd05.png">
+            <a class="menu_a">プロフィール</a>
+        </button>
+    </div>
+    <div class="main">
+        <h1>応募を取り消しました</h1>
+        <button type="button" id="back_list">応募済みのイベント一覧に戻る</button>
+    </div>
+    <script>
+        const logout = document.getElementById("logout");
+        const sc_home = document.getElementById("sc_home");
+        const sc_list = document.getElementById("sc_list");
+        const sc_com = document.getElementById("sc_com");
+        const sc_plf = document.getElementById("sc_plf");
+        const back_list = document.getElementById("back_list");
+
+        logout.addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+
+        sc_home.addEventListener("click", () => {
+            window.location.href = "home.html#scHome";
+        });
+
+        sc_list.addEventListener("click", () => {
+            window.location.href = "home.html#sc_evlist";
+        });
+
+        sc_com.addEventListener("click", () => {
+            window.location.href = "home.html#sc_coment";
+        });
+
+        sc_plf.addEventListener("click", () => {
+            window.location.href = "home.html#sc_plof";
+        });
+
+        back_list.addEventListener("click", () => {
+            window.location.href = "entered_event.html";
+        });
+    </script>
+</body>
+
+</html>

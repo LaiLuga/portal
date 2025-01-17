@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 177, 234);
+}
+
+.main {
+    position: relative;
+    width: 1400px;
+    background-color: rgb(255, 227, 227);
+    display: block;
+    top: 250px;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+#back_list {
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 177, 234);
+}
+
+#back_list:hover {
+    background-color: rgb(255, 255, 255);
+}

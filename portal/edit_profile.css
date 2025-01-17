@@ -1,0 +1,81 @@
+body {
+    height: 1200px;
+    background-color: rgb(255, 177, 234);
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    background-color: rgb(255, 227, 227);
+    display: block;
+    top: 250px;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.main-img {
+    position: relative;
+    height: 250px;
+    width: 300px;
+    margin: 30px 0 0 550px;
+}
+
+.main h2 {
+    margin: 10px 0 0 530px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.text_box {
+    margin: 10px 0 0 530px;
+    font-size: 25px;
+}
+
+#man {
+    margin: 15px 5px 0 530px;
+}
+
+.radio_btn {
+    margin-left: 30px;
+}
+
+.main label {
+    font-size: 25px;
+}
+
+#pulldown {
+    margin: 10px 0 0 530px;
+    font-size: 25px;
+}
+
+#pulldown2 {
+    margin: 10px 0 0 530px;
+    font-size: 25px;
+}
+
+
+.main p {
+    margin: 10px 0 0 530px;
+    line-height: 10px;
+    font-size: 25px;
+}
+
+#back_plf {
+    width: 400px;
+    margin: 30px 0 0 500px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 177, 234);
+}
+
+#back_plf:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.contact {
+    position: relative;
+    margin-top: 50px;
+}

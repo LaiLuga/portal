@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255, 177, 234);
+    height: 3300px;
+}
+
+.event-list {
+    position: relative;
+    width: 1440px;
+    background-color: rgb(255, 227, 227);
+    display: block;
+    border-radius: 30px;
+    top: 250px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    z-index: 1;
+    /*  transition: all 0.5s;*/
+}
+
+.event-list h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.event-list-content {
+    position: relative;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 30px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.main-img {
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin: -30px 630px 0 0;
+}
+
+.event-list-img {
+    height: 250px;
+    width: 300px;
+    margin-left: 50px;
+    float: left;
+}
+
+.event-list-content p {
+    margin-left: 430px;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+.tag {
+    padding-top: 60px;
+    color: rgb(0, 0, 255);
+}
+
+.quit_event {
+    /*display: block;*/
+    position: relative;
+    width: 450px;
+    top: -20px;
+    margin-left: 900px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(194, 241, 235);
+}
+
+.quit_event:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.to_event {
+    /*display: block;*/
+    position: relative;
+    width: 400px;
+    top: 30px;
+    margin-left: 450px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(194, 241, 235);
+}
+
+.to_event:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.other_event {
+    display: block;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-left: 500px;
+    background-color: rgb(194, 241, 235);
+    text-decoration: none;
+}
+
+.other_event:hover {
+    background-color: rgb(255, 255, 255);
+}
